@@ -39,13 +39,13 @@ De acordo com a solicitação, a api criada registra informações de patrimôni
 - Não é permitida a existência de duas marcas com o mesmo nome. Ao incluir ou alterar o nome de uma marca para um nome existente, uma mensagem de erro é retornada;
 - Não é permitido cadastrar patrimônio sem uma marca préviamente cadastrada. Ao realizar esta operação, uma mensagem de erro é retornada;
 - Ao realizar a consulta de um patrimônio ou marca inexistentes, uma mensagem de erro é retornada;
-- Caso seja informado algum campo obrigatório em branco, o sistema retorna uma mensagem sobre o erro; *************
+- Caso seja informado algum campo obrigatório em branco, o sistema retorna uma mensagem sobre o erro;
 - O sistema não trata campos não informados na estrutura de entrada dos dados tanto para inclusão quanto para alterações. Uma exceção informando a inexistência do campo será retornada. Deve-se seguir as orientações para utilização dos endpoints da api.
 
 
 6. Endpoints
 
-Patrimônio
+**Patrimônio**
 
 Campos:
 •	Nome - obrigatório
@@ -53,35 +53,57 @@ Campos:
 •	Descrição
 •	Nº do tombo
 
-Endpoints:
-•	GET patrimonios - Obter todos os patrimônios
-•	GET patrimonios/{id} - Obter um patrimônio por ID
-•	POST patrimonios - Inserir um novo patrimônio
-•	PUT patrimonios/{id} - Alterar os dados de um patrimônio
-•	DELETE patrimonios/{id} - Excluir um patrimônio
+Exemplos de utilização dos Endpoints:
+•	GET patrimonios - Obter todos os patrimônios - http://localhost:50534/api/Patrimonios
+•	GET patrimonios/{id} - Obter um patrimônio por ID - http://localhost:50534/api/Patrimonios/3
+•	POST patrimonios - Inserir um novo patrimônio - http://localhost:50534/api/Patrimonios
+•	PUT patrimonios/{id} - Alterar os dados de um patrimônio - http://localhost:50534/api/Patrimonios
+Exemplos de Body para POST e PUT:
+{
+    "Nome": "Tombo 3",
+    "Descricao": "Descricao do tombo numero 3.",
+    "MarcaId": 4
+}
+Ou
+{
+    "IdTombo": 0,
+    "Nome": "Tombo 3",
+    "Descricao": "Descricao do tombo numero 3.",
+    "MarcaId": 4
+}
+IdTombo informado com valor 0 (zero) ou não informado, diz aos métodos POST e PUT para inserir o registro. Quando informado o valor de IdTombo, a api realiza a alteração do registro verificando as consistências descritas no item 5.1.
+
+•	DELETE patrimonios/{id} - Excluir um patrimônio - http://localhost:50534/api/Patrimonios/2
 
 Regras:
 •	O nº do tombo deve ser gerado automaticamente pelo sistema, e não pode ser alterado pelos usuários.
 
 
-Marca
+**Marca**
 
 Campos:
 •	Nome – obrigatório
 •	MarcaId - obrigatório
 Endpoints:
-•	GET marcas - Obter todas as marcas
-•	GET marcas/{id} - Obter uma marca por ID
-•	GET marcas/patrimônios/{id} – Obter todos os patrimônios de uma marca *************
-•	POST marcas - Inserir uma nova marca
-•	PUT marcas/{id} - Alterar os dados de uma marca
-•	DELETE marcas/{id} - Excluir uma marca
+•	GET marcas - Obter todas as marcas - http://localhost:50534/api/Marcas
+•	GET marcas/{id} - Obter uma marca por ID - http://localhost:50534/api/Marcas/1
+•	GET marcas/patrimonios/{id} – Obter todos os patrimônios de uma marca - http://localhost:50534/api/Marcas/Patrimonios/1006
+•	POST marcas - Inserir uma nova marca - http://localhost:50534/api/Marcas
+•	PUT marcas/{id} - Alterar os dados de uma marca - http://localhost:50534/api/Marcas
+Exemplos de POST e PUT:
+{
+    "Nome": "Marca ZY"
+}
+ou
+{
+    "Id": 0,
+    "Nome": "Marca ZY"
+}
+Id informado com valor 0 (zero) ou não informado, diz aos métodos POST e PUT para inserir o registro. Quando informado o valor de Id, a api realiza a alteração do registro verificando as consistências descritas no item 5.1.
+
+•	DELETE marcas/{id} - Excluir uma marca - http://localhost:50534/api/Marcas
+
 Regras:
 •	Não deve permitir a existência de duas marcas com o mesmo nome.
-
-
-
-
-
 
 
