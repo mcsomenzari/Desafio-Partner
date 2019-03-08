@@ -45,7 +45,7 @@ De acordo com a solicitação, a api criada registra informações de patrimôni
 
 6. Endpoints
 
-**Patrimônio**
+Patrimônio
 
 Campos:
 - Nome - obrigatório
@@ -81,7 +81,7 @@ Regras:
 - O nº do tombo deve ser gerado automaticamente pelo sistema, e não pode ser alterado pelos usuários.
 
 
-**Marca**
+Marca
 
 Campos:
 - Nome – obrigatório
