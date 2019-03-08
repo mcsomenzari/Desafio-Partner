@@ -58,6 +58,7 @@ Exemplos de utilização dos Endpoints:
 - GET patrimonios/{id} - Obter um patrimônio por ID - http://localhost:50534/api/Patrimonios/3
 - POST patrimonios - Inserir um novo patrimônio - http://localhost:50534/api/Patrimonios
 - PUT patrimonios/{id} - Alterar os dados de um patrimônio - http://localhost:50534/api/Patrimonios
+
 Exemplos de Body para POST e PUT:
 {
     "Nome": "Tombo 3",
