@@ -1,9 +1,6 @@
 # Desafio-Partner
 Desafio Partner C#
 
-# Desafio-Partner
-Desafio Partner C#
-
 Arquitetura do sistema
 
 
