@@ -5,7 +5,9 @@ Arquitetura do sistema
 
 
 1. Ferramentas utilizadas
+
 Microsoft Visual Studio Community 2017
+
 Microsoft SQL Server 2017 Express
 
 
