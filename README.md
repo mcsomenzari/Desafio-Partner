@@ -21,7 +21,7 @@ Armazenada no arquivo appsettings.json.
 
 4. Utilização do banco de dados
 
-4.1. Para a criação do banco de dados (tabelas e stored procedures) é necessário a execução do script SQL fornecido: DesfioPartner.sql.
+4.1. Para a criação do banco de dados (tabelas e stored procedures) é necessário a execução do script SQL fornecido: DesafioPartner.sql.
 
 4.2. Foi criada uma classe SqlHelper na pasta Util. Nesta classe, haverá vários métodos que serão necessários em todo o aplicativo, como um método para executar stored procedures para inserção, alteração e exclusão de registros e que retornam strings com resultados de operações), um método que retornará os dados (objeto/lista de um objeto) de acordo com a nossa necessidade e alguns métodos para obter os valores da coluna do SqlDataReader.
 Foi criado um método genérico - ExecuteProcedureReturnData - que retorna dados do tipo (modelo) que estão sendo esperados. Há mais um parâmetro específico que é Func <SqlDataReader, TData> translator. Essa entrada direciona o reader como entrada e faz retornar o tipo de classe que estamos esperando. 
