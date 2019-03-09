@@ -59,7 +59,7 @@ Exemplos de utilização dos Endpoints:
 - GET patrimonios - Obter todos os patrimônios - http://localhost:50534/api/Patrimonios
 - GET patrimonios/{id} - Obter um patrimônio por ID - http://localhost:50534/api/Patrimonios/3
 - POST patrimonios - Inserir um novo patrimônio - http://localhost:50534/api/Patrimonios
-- PUT patrimonios/{id} - Alterar os dados de um patrimônio - http://localhost:50534/api/Patrimonios
+- PUT patrimonios - Alterar os dados de um patrimônio - http://localhost:50534/api/Patrimonios
 
 Exemplos de Body para POST e PUT:
 {
@@ -75,7 +75,7 @@ Ou
     "MarcaId": 4
 }
 
-IdTombo informado com valor 0 (zero) ou não informado, diz aos métodos POST e PUT para inserir o registro. Quando informado o valor de IdTombo, a api realiza a alteração do registro verificando as consistências descritas no item 5.1.
+IdTombo informado com valor 0 (zero) ou não informado, diz aos métodos POST e PUT para inserir o registro. Quando informado o valor de IdTombo, a api realiza a alteração do registro, verificando as consistências descritas no item 5.1.
 
 - DELETE patrimonios/{id} - Excluir um patrimônio - http://localhost:50534/api/Patrimonios/2
 
@@ -94,7 +94,7 @@ Endpoints:
 - GET marcas/{id} - Obter uma marca por ID - http://localhost:50534/api/Marcas/1
 - GET marcas/patrimonios/{id} – Obter todos os patrimônios de uma marca - http://localhost:50534/api/Marcas/Patrimonios/1006
 - POST marcas - Inserir uma nova marca - http://localhost:50534/api/Marcas
-- PUT marcas/{id} - Alterar os dados de uma marca - http://localhost:50534/api/Marcas
+- PUT marcas - Alterar os dados de uma marca - http://localhost:50534/api/Marcas
 
 Exemplos de POST e PUT:
 {
@@ -106,9 +106,9 @@ ou
     "Nome": "Marca ZY"
 }
 
-Id informado com valor 0 (zero) ou não informado, diz aos métodos POST e PUT para inserir o registro. Quando informado o valor de Id, a api realiza a alteração do registro verificando as consistências descritas no item 5.1.
+Id informado com valor 0 (zero) ou não informado, diz aos métodos POST e PUT para inserir o registro. Quando informado o valor de Id, a api realiza a alteração do registrom verificando as consistências descritas no item 5.1.
 
-- DELETE marcas/{id} - Excluir uma marca - http://localhost:50534/api/Marcas
+- DELETE marcas/{id} - Excluir uma marca - http://localhost:50534/api/Marcas/1
 
 Regras:
 - Não deve permitir a existência de duas marcas com o mesmo nome.
