@@ -41,8 +41,8 @@ De acordo com a solicitação, a api criada registra informações de patrimôni
 - Não é permitida a existência de duas marcas com o mesmo nome. Ao incluir ou alterar o nome de uma marca para um nome existente, uma mensagem de erro é retornada;
 - Não é permitido cadastrar patrimônio sem uma marca préviamente cadastrada. Ao realizar esta operação, uma mensagem de erro é retornada;
 - Ao realizar a consulta de um patrimônio ou marca inexistentes, uma mensagem de erro é retornada;
-- Caso seja informado algum campo obrigatório em branco, o sistema retorna uma mensagem sobre o erro;
-- O sistema não trata campos não informados na estrutura de entrada dos dados tanto para inclusão quanto para alterações. Uma exceção informando a inexistência do campo será retornada. Deve-se seguir as orientações para utilização dos endpoints da api.
+- Caso seja informado algum campo obrigatório em branco ou esteja faltando no corpo da entrada, o sistema retorna uma mensagem sobre o erro;
+- O sistema não trata campos não obrigatórios, não informados na estrutura de entrada dos dados tanto para inclusão quanto para alterações. Uma exceção informando a inexistência do campo será retornada. Deve-se seguir as orientações para utilização dos endpoints da api de acordo com os exemplos.
 
 
 6. Endpoints
