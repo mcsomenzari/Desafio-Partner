@@ -9,3 +9,14 @@ C:\Users\mcsom\source\repos\apiPartner\apiPartner\obj\Debug\netcoreapp2.0\apiPar
 C:\Users\mcsom\source\repos\apiPartner\apiPartner\obj\Debug\netcoreapp2.0\apiPartner.dll
 C:\Users\mcsom\source\repos\apiPartner\apiPartner\obj\Debug\netcoreapp2.0\apiPartner.pdb
 C:\Users\mcsom\source\repos\apiPartner\apiPartner\obj\Debug\netcoreapp2.0\apiPartner.csprojAssemblyReference.cache
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartner\bin\Debug\netcoreapp2.0\apiPartner.deps.json
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartner\bin\Debug\netcoreapp2.0\apiPartner.runtimeconfig.json
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartner\bin\Debug\netcoreapp2.0\apiPartner.runtimeconfig.dev.json
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartner\bin\Debug\netcoreapp2.0\apiPartner.dll
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartner\bin\Debug\netcoreapp2.0\apiPartner.pdb
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartner\obj\Debug\netcoreapp2.0\apiPartner.csprojAssemblyReference.cache
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartner\obj\Debug\netcoreapp2.0\apiPartner.csproj.CoreCompileInputs.cache
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartner\obj\Debug\netcoreapp2.0\apiPartner.AssemblyInfoInputs.cache
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartner\obj\Debug\netcoreapp2.0\apiPartner.AssemblyInfo.cs
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartner\obj\Debug\netcoreapp2.0\apiPartner.dll
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartner\obj\Debug\netcoreapp2.0\apiPartner.pdb
