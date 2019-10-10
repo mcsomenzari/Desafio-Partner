@@ -1,0 +1,14 @@
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartnerTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartnerTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartnerTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartnerTest\bin\Debug\apiPartnerTest.dll
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartnerTest\bin\Debug\apiPartnerTest.pdb
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartnerTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartnerTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartnerTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartnerTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartnerTest\obj\Debug\apiPartnerTest.csprojAssemblyReference.cache
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartnerTest\obj\Debug\apiPartnerTest.csproj.CoreCompileInputs.cache
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartnerTest\obj\Debug\apiPartnerTest.csproj.CopyComplete
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartnerTest\obj\Debug\apiPartnerTest.dll
+C:\Users\mauro.somenzari\Source\Repos\Desafio-Partner\apiPartnerTest\obj\Debug\apiPartnerTest.pdb
